@@ -1,13 +1,28 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "17953b509d5f7e67230e33bbd722201b97297c85d59b67711f8f4bfb052d3b60"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "c6b3ffae00ff836dc6aadf43899d4950c60fa3ef21ac17076e18a50f1856450c"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "fe7409c816bfeae3d3017085eb83b21baac3b3c6bab9f678860a75e1860021a3"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "9b06dfaff434603d595c5410b4d06cf2993619fc3745b666de34ac9efd30f7f6"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "9b65c9e7460a72f3ce3cd86d44f54ffae739f916d7d4e99a4d1bcb9226fb1b8e"
 metafile = true
 
 [[files]]
@@ -23,4 +38,19 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "bc7fbaf7855dc823cfdd90b33f9ef59cf24a54a6a3d963f77838d3e531a16a2e"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+hash = "2842396a8d916579031a0104fdc300a9cae3bc215905b1f57df00524e07b0f6f"
+metafile = true
+
+[[files]]
+file = "mods/particle-rain.pw.toml"
+hash = "41b4dfc4bdee8cc81311206ddc908c8fb193cece56a8f4614dbc243c339b996e"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+hash = "998cf7646c35895a9e445a0369ecfdab7317a3c13c82aff73698fd055e411a7e"
 metafile = true

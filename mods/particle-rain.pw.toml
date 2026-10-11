@@ -1,0 +1,13 @@
+name = "Particle Rain"
+filename = "particlerain-4.0.2+1.20.1-forge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/nrikgvxm/versions/6YJVNjSI/particlerain-4.0.2%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "0ed9c0ff8fc84da5b84ba7090390d1c0c923b895e3ea269752c815d18d67191384f96f014847a3f30567c543e32da46f7010ae89203e3e2dd519d3733a5ef329"
+
+[update]
+[update.modrinth]
+mod-id = "nrikgvxm"
+version = "6YJVNjSI"
