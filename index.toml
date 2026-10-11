@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/create.pw.toml"
+hash = "c6b3ffae00ff836dc6aadf43899d4950c60fa3ef21ac17076e18a50f1856450c"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "9b06dfaff434603d595c5410b4d06cf2993619fc3745b666de34ac9efd30f7f6"
 metafile = true
