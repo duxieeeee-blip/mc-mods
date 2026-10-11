@@ -1,0 +1,21 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "9b06dfaff434603d595c5410b4d06cf2993619fc3745b666de34ac9efd30f7f6"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "94ce45eb2e05091c49043da70df5b323aca6fa40b86e56be79fdb66b9180695b"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "1b70d95a5ba36f4f69f4d7f36f90253762d5df3b0a4493f15ffe5e0db2da9762"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "bc7fbaf7855dc823cfdd90b33f9ef59cf24a54a6a3d963f77838d3e531a16a2e"
+metafile = true

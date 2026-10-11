@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Servidor de Minecraft</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1f2421; --mut:#5d665f; --card:#fff; --bd:#dcdfd8; --ac:#2f7d4f; --code:#eef1ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141815; --fg:#e8ece6; --mut:#9aa59c; --card:#1c211d; --bd:#2f3731; --ac:#6fcf97; --code:#242b26; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.7rem; margin:0 0 4px; } h2 { font-size:1.15rem; margin:0 0 8px; }
+  p.sub { color:var(--mut); margin:0 0 24px; }
+  section { background:var(--card); border:1px solid var(--bd); border-radius:10px; padding:16px 18px; margin:0 0 14px; }
+  code { background:var(--code); padding:2px 6px; border-radius:5px; font-size:.92em; word-break:break-all; }
+  pre { background:var(--code); padding:10px 12px; border-radius:8px; overflow-x:auto; margin:8px 0; }
+  pre code { padding:0; background:none; }
+  ol { padding-left:20px; margin:6px 0; } li { margin:4px 0; }
+  .addr { font-size:1.2rem; font-weight:600; color:var(--ac); }
+  a { color:var(--ac); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Servidor de Minecraft</h1>
+  <p class="sub">Forge 1.20.1 · los mods se descargan y actualizan solos al abrir el juego.</p>
+
+  <section>
+    <h2>Dirección del servidor</h2>
+    <p class="addr">spite-breaks.tun.ply.gg</p>
+    <p>En Minecraft: Multijugador → Añadir servidor → pegá la dirección (sin puerto).</p>
+  </section>
+
+  <section>
+    <h2>Instalación (una sola vez)</h2>
+    <ol>
+      <li>Instal&aacute; <a href="https://prismlauncher.org/">Prism Launcher</a> e inici&aacute; sesi&oacute;n con tu cuenta de Microsoft.</li>
+      <li>Creá una instancia nueva: Minecraft <strong>1.20.1</strong> y mod loader <strong>Forge 47.4.10</strong> (o la 47.x más reciente).</li>
+      <li>Abrí la instancia → <strong>Configuración → Configuración personalizada → Comandos personalizados</strong>. Activá "Personalizar comandos" y pegá esto en <strong>Comando previo al lanzamiento</strong>:
+<pre><code>"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://duxieeeee-blip.github.io/mc-mods/pack.toml</code></pre>
+      </li>
+      <li>Descargá <a href="packwiz-installer-bootstrap.jar">packwiz-installer-bootstrap.jar</a> y ponelo dentro de la carpeta <code>minecraft</code> de la instancia (clic derecho en la instancia → Carpeta → Minecraft (.minecraft)).</li>
+      <li>Jugá. La primera vez baja los mods solo; después se actualizan solos.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Si algo falla</h2>
+    <ul>
+      <li>Si el comando previo da error de Java, usá Java 17 en la instancia (Configuración → Java).</li>
+      <li>Si el juego dice "mods faltantes", cerralo y abrilo de nuevo: la primera vez los mods se bajan antes de iniciar.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+name = "Servidor de Minecraft"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "b0f3016b83993e579319948fef7c43a66d4d4c699f5472b966ad5f7032854c22"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"
